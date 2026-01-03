@@ -3,7 +3,7 @@ from datetime import datetime
 dt=datetime.now()
 print(dt.month)
 x=int(input("Enter number of persons"))
-client=MongoClient("mongodb+srv://user_id:Password@cluster0.sqfbmkq.mongodb.net/")
+client=MongoClient("mongodb_atlas_url")
 db=client['first']
 collec=db['Shift']
 date=int(input("Enter the day"))
